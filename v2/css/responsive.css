@@ -1,0 +1,118 @@
+@media (max-width: 1199px) {
+	header.leftside {
+		max-width: 250px;
+	}
+		header.leftside #logo h3 a {
+			font-size: 21px;
+		}
+	section.content header {
+		margin-left: 250px;
+	}
+		section.content header > div.wrap {
+			margin-left: 20px;
+		}
+	section.content div.comment-content > header {
+		margin-left: 0;
+	}
+	section.content > article {
+		margin-left: 250px;
+	}
+		section.content > article > div#order-by {
+			margin-left: 10px;
+		}
+		section.content > article > div#post-content {
+			margin-left: 20px;
+		}
+	section.content article > div#post-detail {
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 955px) {
+	section.content article > div#post-detail > div.post-profile > div.rating > i {
+		font-size: 24px;
+	}
+	section.content article > div#post-detail > div.post-profile > ul > li:last-of-type {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 817px) {
+	header.leftside {
+		float: none;
+		width: 100%;
+		max-width: 100%;
+		height: auto !important;
+		position: fixed;
+	}
+	header.leftside #logo {
+		text-align: left;
+		width: 218px;
+		padding-left: 20px;
+	}
+	header.leftside .menu-list,
+	header.leftside .company-menu,
+	header.leftside aside:last-of-type {
+		display: none;
+	}
+	header.leftside .social-icons {
+		position: inherit;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: inherit;
+		padding-bottom: 0 !important;
+	}
+	header.leftside > div.mobile-menu {
+		display: block;
+	}
+	header.leftside > div.filter {
+		display: block;
+	}
+	header.leftside nav {
+		width: 190px;
+	}
+	header.leftside nav ul {
+		position: absolute;
+		top: 70px;
+	}
+	section.content {
+		padding-top: 100px;
+		padding-bottom: 110px;
+	}
+		section.content header {
+			display: none;
+		}
+		section.content div.comment-content > header {
+			display: block;
+		}
+		section.content article {
+			margin-left: 0;
+		}
+			section.content > article > div#order-by {
+				display: none;
+			}
+	section.content article > div#post-detail > div.post-profile > div.rating > i {
+		font-size: 32px;
+	}
+	section.content article > div#post-detail > div.post-profile > ul > li:last-of-type {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 700px) {
+	section.content article > div#post-detail > div.post-box {
+		float: none;
+		width: 97%;
+	}
+	section.content article > div#post-detail > div.post-profile {
+		float: none;
+		width: 97%;
+	}
+	section.content article > div#post-detail > aside.hr-line:first-of-type {
+		display: block;
+	}
+	section.content article > div#post-detail > div.vr-line {
+		display: none;
+	}
+}
